@@ -1,4 +1,4 @@
-# Linux CLI Video Editing Cheat Sheat
+# Onder's FFmpeg Cheat Sheet
 
 Here i note scripts and commands i mostly use while working on videos. If you somehow end up here, feel free to take a look :)
 
