@@ -11,10 +11,8 @@ ffmpeg -i input.avi -vf scale=320:240 output.avi
 ## Splitting a Video to Frames
 
 ```sh
-INPUT_NAME = "INPUT.mp4"
-
 mkdir frames
-ffmpeg -i $INPUT_NAME frames/frame_%03d.jpg
+ffmpeg -i input.mp4 frames/frame_%03d.jpg
 ```
 
 ### Splitting Videos in a Folder to Frames Using Python
