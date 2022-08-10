@@ -2,6 +2,12 @@
 
 Here i note scripts and commands i mostly use while working on videos. If you somehow end up here, feel free to take a look :)
 
+## Scaling Videos
+
+```sh
+ffmpeg -i input.avi -vf scale=320:240 output.avi
+```
+
 ## Splitting a Video to Frames
 
 ```sh
